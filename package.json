@@ -1,0 +1,26 @@
+{
+  "name": "hackathon_group",
+  "version": "1.0.0",
+  "description": "server for hackathon group project",
+  "main": "server2.js",
+  "scripts": {
+    "start": "node server2.js",
+    "dev": "nodemon server2.js"
+  },
+  "author": "Matthew_H, Millie, Will, Evandar",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.4",
+    "nodemon": "^1.19.1"
+  },
+  "presets": ["babel/preset-env"]
+  
+}
